@@ -1,0 +1,33 @@
+Inner working -
+
+# How code gets executed ?
+  * Compilation + Run
+  * Python code gets converted to bytecode
+  * Bytecode is not a machine code
+  * Bytecode is python specific
+  * Bytecode fed to the Python Virtual Machine
+  * PVM execites it line by line
+
+# Python Shell
+  * Enter python shell using command 'python' on terminal
+  * Helps in finding the output of our scripts 
+  * We can use it in debugging
+
+# Mutable/Immutable
+  * Mutable
+    - Set
+    - List
+    - Array
+  
+  * Immutable
+    - Integer
+    - Float
+    - String
+    - boolean
+
+  * What does it mean ?
+    - Mutable mean we can chnage the value of a variable 
+    - Immutable mean we can't change
+    - In python when we assign a new value to the previously defined variable then all Immutable
+      variable got new value with some new reference but prev ref still exists in memory and 
+      collected by garbage collector if no one is using that reference
